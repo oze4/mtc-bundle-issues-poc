@@ -1,3 +1,11 @@
+### Why?
+
+This repo was created to test bundle size issues with `@material-table/core`. It appears it may be bundling all of `@material-ui/core`, despite the fact we are tree-shaking.
+
+# Test Bundle Size
+
+`yarn build:analyze` - A browser window will automatically open.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
